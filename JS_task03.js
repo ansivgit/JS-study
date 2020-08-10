@@ -3,9 +3,4 @@
 // Дано: Ира
 // Вернет: арИ
 
-const rev = (str) => {
-  let strArr = str.split('').reverse();
-  return (strArr.join(''));
-}
-
-console.log(rev('Ira'));
+const rev = (str) => str.split('').reverse().join('');
