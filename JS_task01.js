@@ -3,5 +3,3 @@
 const sumTo = (n) => {
   return (n > 0) ? (n + sumTo(n - 1)) : 0;
 };
-
-console.log(sumTo(5));

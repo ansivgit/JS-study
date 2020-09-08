@@ -16,6 +16,3 @@ const fibonacci = (n) => {
   }
   return result;
 };
-
-console.log(fibonacci(4));
-console.log(fibonacci(3));
